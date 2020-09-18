@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat:no-repeat;
+
+}
+
+li {
+    display: inline;
+    color: black;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+ul#menu li {
+  display:inline;
+  align-items: center;
+  }
+  
+   .topnav {
+      overflow: hidden;
+      background-color: black;
+      text-align: center;
+    }
+
+    .topnav li {
+      display: inline;
+    }
+    
+    .topnav a {
+      display: inline-block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+      
+    }
+    
+    .topnav a:hover {
+      background-color: red;
+      color: black;
+    }
+    
+  .topnav a.active {
+      background-color: black;
+      color: white;
+    }
+  
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+    float: right;
+  }
+
+
+.movie {
+    color: red;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.moviepic {
+    display: block;
+    margin-left: 50px;
+    margin-right: auto;
+    width: 40%;
+    border: 5px groove gold;
+    font-family: 'Pacifico', cursive;
+    float: left;
+}
+
+.about {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+   display: block;
+   margin-left: auto;
+   margin-right:50px;
+   width: 50%;
+
+}
+
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Other Classes for Page Styling */
+
+body {
+  background: #000000;
+  background: linear-gradient(to right, #000000, #000000);
+}
+
+.jumbotron {
+  background-image: url(/images/avengers.jpg);
+  background-size: cover;
+  margin-top: 50px;
+  background-repeat: no-repeat;
+  text-align: center;
+
+}
+
+p.lead {
+  font-weight: bold;
+  font-size: 35px;
+  margin-bottom: 20px;
+  color: #080808;
+
+}
+
+h1.movie {
+  font-size: 60px;
+  
+}
